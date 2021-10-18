@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-export const SITE_URL = 'https://demo.vercel.events';
+export const SITE_URL = 'https://butterflydesign.app';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'ACME';
-export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
-export const SITE_NAME = 'ACME Conf';
+export const TWITTER_USER_NAME = 'butterflydesign';
+export const BRAND_NAME = 'Butterfly Design';
+export const SITE_NAME_MULTILINE = ['Butterfly Design', 'App Development'];
+export const SITE_NAME = 'Butterfly Design';
 export const META_DESCRIPTION =
-  'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
+  'A Canadian Web Design and Development Company';
 export const SITE_DESCRIPTION =
-  'An interactive online experience by the community, free for everyone.';
-export const DATE = 'October 27, 2020';
+  'A Canadian Web Design and Development Company';
+export const DATE = 'October 27, 2021';
 export const SHORT_DATE = 'Oct 27 - 9:00am PST';
 export const FULL_DATE = 'Oct 27th 9am Pacific Time (GMT-7)';
 export const TWEET_TEXT = META_DESCRIPTION;
@@ -37,41 +37,29 @@ export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
 
 export const CODE_OF_CONDUCT =
   'https://www.notion.so/vercel/Code-of-Conduct-Example-7ddd8d0e9c354bb597a0faed87310a78';
-export const REPO = 'https://github.com/vercel/virtual-event-starter-kit';
+export const REPO = 'https://github.com/butterflydesign/virtual-butterfly';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Stage A',
-    route: '/stage/a'
+    name: 'About Us',
+    route: '/about-us/'
   },
   {
-    name: 'Stage C',
-    route: '/stage/c'
+    name: 'UX Design',
+    route: '/ux-design/'
   },
   {
-    name: 'Stage M',
-    route: '/stage/m'
+    name: 'App Development',
+    route: '/app-development/m'
   },
   {
-    name: 'Stage E',
-    route: '/stage/e'
+    name: 'Portfolio',
+    route: '/portfolio/'
   },
   {
-    name: 'Schedule',
-    route: '/schedule'
+    name: 'The Team',
+    route: '/team/'
   },
-  {
-    name: 'Speakers',
-    route: '/speakers'
-  },
-  {
-    name: 'Expo',
-    route: '/expo'
-  },
-  {
-    name: 'Jobs',
-    route: '/jobs'
-  }
 ];
 
 export type TicketGenerationState = 'default' | 'loading';

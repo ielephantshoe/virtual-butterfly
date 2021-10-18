@@ -1,9 +1,9 @@
 {
-  "name": "virtual-event-starter-kit",
-  "description": "Starter kit for your virtual event.",
+  "name": "virtual-butterfly",
+  "description": "Butterfly Design",
   "private": true,
-  "repository": "vercel/virtual-event-starter-kit",
-  "author": "Vercel Inc.",
+  "repository": "vercel/virtual-butterfly",
+  "author": "Butterfly Design Studio Inc.",
   "homepage": "https://demo.vercel.events",
   "license": "Apache-2.0",
   "engines": {
@@ -13,7 +13,7 @@
     "dev": "next",
     "start": "next start",
     "build": "next build",
-    "license": "addlicense -l apache -c 'Vercel Inc.' components/**/* lib/**/* pages/**/* styles/**/* *.ts *.js"
+    "license": "addlicense -l apache -c 'Butterfly Design Studio Inc.' components/**/* lib/**/* pages/**/* styles/**/* *.ts *.js"
   },
   "dependencies": {
     "@agility/content-fetch": "1.0.0",
